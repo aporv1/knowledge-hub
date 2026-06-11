@@ -1,1 +1,1 @@
-# Cybersec Blog
+# Cybersec blog

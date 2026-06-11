@@ -1,1 +1,1 @@
-# AI Blog
+# AI blog

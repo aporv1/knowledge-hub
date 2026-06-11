@@ -1,10 +1,12 @@
 ---
 title: "Cybersecurity"
 description: "Notes and articles on defensive and offensive security."
+tags: [cybersec, index]
+status: polished
+created: 2026-06-11
+updated: 2026-06-11
 ---
 
 # Cybersecurity
 
-Placeholder — articles on defensive (SOC, CERT, risk analysis) and offensive (pentest, recon, exploitation) security will appear here.
-
-See the [Cybersec blog](blog/index.md).
+Notes and articles on defensive and offensive security.
