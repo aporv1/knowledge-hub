@@ -1,0 +1,47 @@
+/* Knowledge Hub — black + sharp red theme */
+:root,
+[data-md-color-scheme="slate"] {
+  --kh-red: #ff0a2f;
+  --md-default-bg-color: #0b0b0d;
+  --md-default-fg-color--light: #e6e6e6;
+  --md-primary-fg-color: #000000;
+  --md-accent-fg-color: var(--kh-red);
+  --md-typeset-a-color: #ff3b55;
+  --md-footer-bg-color: #000000;
+  --md-code-bg-color: #16161a;
+}
+
+/* page + section headings in sharp red */
+.md-typeset h1,
+.md-typeset h2 {
+  color: var(--kh-red);
+  font-weight: 700;
+}
+
+/* left nav: red active item, section headers like HackTricks */
+.md-nav__item .md-nav__link--active,
+.md-nav__link:hover,
+.md-nav__link:focus {
+  color: var(--kh-red);
+}
+.md-nav__title {
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* right TOC: red current section */
+.md-nav--secondary .md-nav__link--active {
+  color: var(--kh-red);
+  font-weight: 600;
+}
+
+/* header bar: pure black with red underline */
+.md-header {
+  background-color: #000000;
+  border-bottom: 2px solid var(--kh-red);
+}
+.md-tabs { background-color: #000000; }
+
+/* admonitions + horizontal rules pick up the red */
+.md-typeset hr { border-bottom: 1px solid var(--kh-red); }
