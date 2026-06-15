@@ -9,9 +9,8 @@ edit_uri: edit/main/docs/
 
 theme:
   name: material
+  custom_dir: overrides
   features:
-    - navigation.sections
-    - navigation.expand
     - navigation.path
     - navigation.indexes
     - navigation.top
@@ -35,12 +34,14 @@ plugins:
   - blog:
       blog_dir: ai/blog
       blog_toc: true
+      archive: false
       post_date_format: medium
       post_url_format: "{date}/{slug}"
       authors_file: "{blog}/.authors.yml"
   - blog:
       blog_dir: cybersec/blog
       blog_toc: true
+      archive: false
       post_date_format: medium
       post_url_format: "{date}/{slug}"
       authors_file: "{blog}/.authors.yml"

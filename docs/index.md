@@ -12,5 +12,5 @@ A working notebook for the AI and security curious — notes, drafts, and writin
 
 ## Sections
 
-- **[AI](ai/index.md)** — concepts, techniques, tools, models, and news.
+- **[AI](ai/index.md)** — concepts, tools, and news.
 - **[Cybersecurity](cybersec/index.md)** — defensive and offensive security.
